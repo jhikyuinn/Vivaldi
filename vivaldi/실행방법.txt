@@ -1,0 +1,4 @@
+1. docker volume create myvolume 명령어를 이용해서 결과값이 저장될 volume만들기
+2. vivaldi 폴더로 이동해서 docker build -t vivaldi:latest . 명령어로 이미지 build함
+3. containernet_vivaldi 파일에서 원하는 차원에 맞게 코드를 변경 후 실행
+4.docker volume 상의 app/data/에 가서 dataoutput.txt와 erroroutput.txt를 확인
